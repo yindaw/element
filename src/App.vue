@@ -1,7 +1,7 @@
 <template>
   <div id="app">
-    <el-row>
-        <el-col :span="23"><div class="grid-content bg-purple-dark"></div></el-col>
+    <el-row tag="p">
+        <el-col tag="p" :span="23"><div class="grid-content bg-purple-dark"></div></el-col>
     </el-row>
     <el-row>
         <el-col :span="12"><div class="grid-content bg-purple"></div></el-col>
@@ -102,14 +102,14 @@
 </template>
 
 <script>
-import ElRow from '@element/Row.vue';
-import ElCol from '@element/Col.vue';
+// import ElRow from '@element/Row.js';
+// import ElCol from '@element/Col.js';
 
 export default {
   name: 'App',
   components: {
-    ElRow,
-    ElCol,
+    // ElRow,
+    // ElCol,
   },
 };
 </script>
