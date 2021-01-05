@@ -3,6 +3,7 @@
 
 
 @include b(row) {
+    box-sizing: border-box;
     @include utils-clearfix;
 
     &--flex,
