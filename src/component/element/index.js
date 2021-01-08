@@ -5,6 +5,7 @@ import Main from "@element/main";
 import Header from "@element/header";
 import Footer from "@element/footer";
 import Aside from "@element/aside";
+import Icon from "@element/icon";
 const components = [
     Row,
     Col,
@@ -12,7 +13,8 @@ const components = [
     Main,
     Header,
     Footer,
-    Aside
+    Aside,
+    Icon
 ];
 const install = (Vue) => {
     components.forEach((component) => {
@@ -20,15 +22,17 @@ const install = (Vue) => {
     });
 }
 
+
 export default { 
     Row, 
     Col, 
     install, 
-    Container,
+    Container, 
     Main,
     Header,
     Footer,
-    Aside 
+    Aside,
+    Icon 
 };
 
 export {
