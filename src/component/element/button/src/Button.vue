@@ -1,10 +1,4 @@
 <template>
-    <button>
-        <slot></slot>
-    </button>
+    <button></button>
 </template>
-<script>
-export default {
-    name: "ElButton"
-}
-</script>
+
