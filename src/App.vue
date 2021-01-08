@@ -1,8 +1,6 @@
 <template>
   <div id="app">
-    <el-icon name="eleme"></el-icon>
-    <el-icon name="loading"></el-icon>
-    <i class="el-icon-edit"></i>
+      <el-button>默认按钮</el-button>
   </div>
 </template>
 
